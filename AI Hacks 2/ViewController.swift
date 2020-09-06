@@ -62,7 +62,7 @@ class ViewController: UIViewController {
         UIView.animate(withDuration: 0.3, delay: 0.0, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: .curveEaseInOut, animations: {
             self.transparentLayer.alpha = 0.4
 //height determines how many boxes/options will show up due to space
-            self.tableView.frame = CGRect(x: frames.origin.x, y: frames.origin.y + frames.height + 7, width: frames.width, height: CGFloat(self.Data.count * 40))
+            self.tableView.frame = CGRect(x: frames.origin.x, y: frames.origin.y + frames.height, width: frames.width, height: CGFloat(self.Data.count * 40))
         }, completion: nil)
     }
     
@@ -87,7 +87,7 @@ class ViewController: UIViewController {
         addTransparentLayer(frames: experienceButton.frame)
     }
     @IBAction func clickPayButton(_ sender: Any) {
-        Data = ["Paying", "Free", "<$20", "$20-100", "100-300", "300-500", "500-$1000", "$1000-2500", "2500+"]
+        Data = ["Paying", "Free", "<$20", "$20-$100", "$100-$300", "$300-$500", "$500-$1000", "$1000-$2500", "2500+"]
         buttonClicked = payButton
         addTransparentLayer(frames: payButton.frame)
     }
@@ -120,4 +120,4 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
 }
 
-// https://github.com/1992Shubham/Programmatically-Drop-Down-in-Swift/blob/master/DropDownSelection/DropDownSelection/ViewController.swift
+// Credit: https://github.com/1992Shubham/Programmatically-Drop-Down-in-Swift/blob/master/DropDownSelection/DropDownSelection/ViewController.swift

@@ -39,7 +39,7 @@ class ViewController: UIViewController {
     payButton.layer.cornerRadius = 10
     subjectButton.layer.cornerRadius = 10
     }
-    
+      
     func addTransparentLayer(frames:CGRect) {
         let filter = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
         transparentLayer.frame = filter?.frame ?? self.view.frame

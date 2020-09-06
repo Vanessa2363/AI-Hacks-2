@@ -25,22 +25,29 @@ class ViewController: UIViewController {
     var buttonClicked = UIButton()
     
     var Data = [String]()
+
     
     override func viewDidLoad() {
         tableView.register(Cell.self , forCellReuseIdentifier: "classCell")
         tableView.dataSource = self
         tableView.delegate = self
         super.viewDidLoad()
+        
+    //Rounds the corners of the button
+    ageButton.layer.cornerRadius = 10
+    experienceButton.layer.cornerRadius = 10
+    payButton.layer.cornerRadius = 10
+    subjectButton.layer.cornerRadius = 10
     }
     
     func addTransparentLayer(frames:CGRect) {
-        let window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
-        transparentLayer.frame = window?.frame ?? self.view.frame
+        let filter = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
+        transparentLayer.frame = filter?.frame ?? self.view.frame
         self.view.addSubview(transparentLayer)
         
         tableView.frame = CGRect(x: frames.origin.x, y: frames.origin.y + frames.height, width: frames.width, height: 0)
         self.view.addSubview(tableView)
-        tableView.layer.cornerRadius = 3
+        tableView.layer.cornerRadius = 10
         self.tableView.isScrollEnabled = true
         
 //Adds transparent layer when a button is clicked
@@ -67,10 +74,10 @@ class ViewController: UIViewController {
         }, completion: nil)
     }
     
-    @IBAction func clickAgeButton(_ sender: Any) {
-        Data = ["8-12", "13-15", "16-18", "18-25", "25+" ]
 // Can't get rid of spring
 //        Data = ["8","9","10","11","12","13","14","15","16","17","18", "19". "20", "21", "22", "23", "24", "25",]
+        @IBAction func clickAgeButton(_ sender: Any) {
+        Data = ["8-12", "13-15", "16-18", "18-25", "25+" ]
         buttonClicked = ageButton
         addTransparentLayer(frames: ageButton.frame)
     }
@@ -80,7 +87,7 @@ class ViewController: UIViewController {
         addTransparentLayer(frames: experienceButton.frame)
     }
     @IBAction func clickPayButton(_ sender: Any) {
-        Data = ["Paying", "Unpaying"]
+        Data = ["Paying", "Free", "<$20", "$20-100", "100-300", "300-500", "500-$1000", "$1000-2500", "2500+"]
         buttonClicked = payButton
         addTransparentLayer(frames: payButton.frame)
     }
@@ -112,3 +119,5 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         removeTransparentLayer()
     }
 }
+
+//https://github.com/1992Shubham/Programmatically-Drop-Down-in-Swift/blob/master/DropDownSelection/DropDownSelection/ViewController.swift

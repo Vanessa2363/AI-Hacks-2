@@ -1,6 +1,0 @@
-framework module Pods_AI_Hacks_2Tests {
-  umbrella header "Pods-AI Hacks 2Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

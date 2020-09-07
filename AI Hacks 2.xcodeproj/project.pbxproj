@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,11 +16,8 @@
 		260CDC1E250491E70029E22A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260CDC1C250491E70029E22A /* LaunchScreen.storyboard */; };
 		260CDC29250491E80029E22A /* AI_Hacks_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260CDC28250491E80029E22A /* AI_Hacks_2Tests.swift */; };
 		260CDC34250491E80029E22A /* AI_Hacks_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260CDC33250491E80029E22A /* AI_Hacks_2UITests.swift */; };
-		2815317C2505BEDB006B4B6D /* NominationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2815317B2505BEDB006B4B6D /* NominationsViewController.swift */; };
-		2815317E2505C168006B4B6D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2815317D2505C168006B4B6D /* GoogleService-Info.plist */; };
-		481DBD4ECE802D62513C3495 /* Pods_AI_Hacks_2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF471E514E83E869B98FB2B /* Pods_AI_Hacks_2Tests.framework */; };
-		580BE14E1381141F75CCD18C /* Pods_AI_Hacks_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D16057FB179477DFE364FB11 /* Pods_AI_Hacks_2.framework */; };
-		8A9FD3CDB09631809F12BA01 /* Pods_AI_Hacks_2_AI_Hacks_2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8A97C79B541E38347ABF4F /* Pods_AI_Hacks_2_AI_Hacks_2UITests.framework */; };
+		375B56A82505FCC7006208E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B56A72505FCC7006208E3 /* ContentView.swift */; };
+		375B56AB2506063C006208E3 /* welcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B56AA2506063C006208E3 /* welcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01ED996B949108CDE2FB1F21 /* Pods-AI Hacks 2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AI Hacks 2.release.xcconfig"; path = "Target Support Files/Pods-AI Hacks 2/Pods-AI Hacks 2.release.xcconfig"; sourceTree = "<group>"; };
-		0C835ADE5A5123BFE9DC1D34 /* Pods-AI Hacks 2-AI Hacks 2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AI Hacks 2-AI Hacks 2UITests.release.xcconfig"; path = "Target Support Files/Pods-AI Hacks 2-AI Hacks 2UITests/Pods-AI Hacks 2-AI Hacks 2UITests.release.xcconfig"; sourceTree = "<group>"; };
-		21F1AA16508C1CB99229F04B /* Pods-AI Hacks 2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AI Hacks 2.debug.xcconfig"; path = "Target Support Files/Pods-AI Hacks 2/Pods-AI Hacks 2.debug.xcconfig"; sourceTree = "<group>"; };
-		260CDC0B250491E30029E22A /* AI Hacks 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI Hacks 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		260CDC0E250491E30029E22A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		260CDC10250491E30029E22A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		260CDC12250491E30029E22A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,20 +46,16 @@
 		260CDC1A250491E70029E22A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		260CDC1D250491E70029E22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		260CDC1F250491E70029E22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		260CDC24250491E80029E22A /* AI Hacks 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI Hacks 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		260CDC28250491E80029E22A /* AI_Hacks_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_Hacks_2Tests.swift; sourceTree = "<group>"; };
 		260CDC2A250491E80029E22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		260CDC2F250491E80029E22A /* AI Hacks 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI Hacks 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		260CDC33250491E80029E22A /* AI_Hacks_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_Hacks_2UITests.swift; sourceTree = "<group>"; };
 		260CDC35250491E80029E22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26A78DE28CC4D8407958E9C6 /* Pods-AI Hacks 2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AI Hacks 2Tests.release.xcconfig"; path = "Target Support Files/Pods-AI Hacks 2Tests/Pods-AI Hacks 2Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2815317B2505BEDB006B4B6D /* NominationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NominationsViewController.swift; sourceTree = "<group>"; };
-		2815317D2505C168006B4B6D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		2D8A97C79B541E38347ABF4F /* Pods_AI_Hacks_2_AI_Hacks_2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AI_Hacks_2_AI_Hacks_2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		42B1D8CB6681E009702FB546 /* Pods-AI Hacks 2-AI Hacks 2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AI Hacks 2-AI Hacks 2UITests.debug.xcconfig"; path = "Target Support Files/Pods-AI Hacks 2-AI Hacks 2UITests/Pods-AI Hacks 2-AI Hacks 2UITests.debug.xcconfig"; sourceTree = "<group>"; };
-		76680AF0D79D9E7B587C294F /* Pods-AI Hacks 2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AI Hacks 2Tests.debug.xcconfig"; path = "Target Support Files/Pods-AI Hacks 2Tests/Pods-AI Hacks 2Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D16057FB179477DFE364FB11 /* Pods_AI_Hacks_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AI_Hacks_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFF471E514E83E869B98FB2B /* Pods_AI_Hacks_2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AI_Hacks_2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		375B56A42505F776006208E3 /* AI Hacks 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI Hacks 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		375B56A52505F776006208E3 /* AI Hacks 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI Hacks 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		375B56A62505F776006208E3 /* AI Hacks 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI Hacks 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		375B56A72505FCC7006208E3 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../PeekScrolling/PeekScrolling/ContentView.swift; sourceTree = "<group>"; };
+		375B56A92505FDC5006208E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		375B56AA2506063C006208E3 /* welcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +63,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				580BE14E1381141F75CCD18C /* Pods_AI_Hacks_2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +70,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				481DBD4ECE802D62513C3495 /* Pods_AI_Hacks_2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +77,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A9FD3CDB09631809F12BA01 /* Pods_AI_Hacks_2_AI_Hacks_2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,34 +86,25 @@
 		260CDC02250491E30029E22A = {
 			isa = PBXGroup;
 			children = (
+				375B56A92505FDC5006208E3 /* ContentView.swift */,
 				260CDC0D250491E30029E22A /* AI Hacks 2 */,
 				260CDC27250491E80029E22A /* AI Hacks 2Tests */,
 				260CDC32250491E80029E22A /* AI Hacks 2UITests */,
-				260CDC0C250491E30029E22A /* Products */,
-				7ED2C61D5DBA140929F89384 /* Pods */,
-				92B10A2487ACFED55DBFC7F4 /* Frameworks */,
+				375B56A42505F776006208E3 /* AI Hacks 2.app */,
+				375B56A52505F776006208E3 /* AI Hacks 2Tests.xctest */,
+				375B56A62505F776006208E3 /* AI Hacks 2UITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		260CDC0C250491E30029E22A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				260CDC0B250491E30029E22A /* AI Hacks 2.app */,
-				260CDC24250491E80029E22A /* AI Hacks 2Tests.xctest */,
-				260CDC2F250491E80029E22A /* AI Hacks 2UITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		260CDC0D250491E30029E22A /* AI Hacks 2 */ = {
 			isa = PBXGroup;
 			children = (
-				2815317D2505C168006B4B6D /* GoogleService-Info.plist */,
-				2815317B2505BEDB006B4B6D /* NominationsViewController.swift */,
 				260CDC0E250491E30029E22A /* AppDelegate.swift */,
 				260CDC10250491E30029E22A /* SceneDelegate.swift */,
 				260CDC12250491E30029E22A /* ViewController.swift */,
+				375B56AA2506063C006208E3 /* welcomeViewController.swift */,
 				260CDC14250491E30029E22A /* Main.storyboard */,
+				375B56A72505FCC7006208E3 /* ContentView.swift */,
 				260CDC1A250491E70029E22A /* Assets.xcassets */,
 				260CDC1C250491E70029E22A /* LaunchScreen.storyboard */,
 				260CDC1F250491E70029E22A /* Info.plist */,
@@ -154,29 +131,6 @@
 			path = "AI Hacks 2UITests";
 			sourceTree = "<group>";
 		};
-		7ED2C61D5DBA140929F89384 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				21F1AA16508C1CB99229F04B /* Pods-AI Hacks 2.debug.xcconfig */,
-				01ED996B949108CDE2FB1F21 /* Pods-AI Hacks 2.release.xcconfig */,
-				42B1D8CB6681E009702FB546 /* Pods-AI Hacks 2-AI Hacks 2UITests.debug.xcconfig */,
-				0C835ADE5A5123BFE9DC1D34 /* Pods-AI Hacks 2-AI Hacks 2UITests.release.xcconfig */,
-				76680AF0D79D9E7B587C294F /* Pods-AI Hacks 2Tests.debug.xcconfig */,
-				26A78DE28CC4D8407958E9C6 /* Pods-AI Hacks 2Tests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		92B10A2487ACFED55DBFC7F4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D16057FB179477DFE364FB11 /* Pods_AI_Hacks_2.framework */,
-				2D8A97C79B541E38347ABF4F /* Pods_AI_Hacks_2_AI_Hacks_2UITests.framework */,
-				EFF471E514E83E869B98FB2B /* Pods_AI_Hacks_2Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -184,11 +138,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 260CDC38250491E80029E22A /* Build configuration list for PBXNativeTarget "AI Hacks 2" */;
 			buildPhases = (
-				3E3D29A74DA1D565A553A13F /* [CP] Check Pods Manifest.lock */,
 				260CDC07250491E30029E22A /* Sources */,
 				260CDC08250491E30029E22A /* Frameworks */,
 				260CDC09250491E30029E22A /* Resources */,
-				CA04EAFA3BC90ED199845583 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,14 +148,13 @@
 			);
 			name = "AI Hacks 2";
 			productName = "AI Hacks 2";
-			productReference = 260CDC0B250491E30029E22A /* AI Hacks 2.app */;
+			productReference = 375B56A42505F776006208E3 /* AI Hacks 2.app */;
 			productType = "com.apple.product-type.application";
 		};
 		260CDC23250491E80029E22A /* AI Hacks 2Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 260CDC3B250491E80029E22A /* Build configuration list for PBXNativeTarget "AI Hacks 2Tests" */;
 			buildPhases = (
-				4BA3A8C5539E46E1C53B50F6 /* [CP] Check Pods Manifest.lock */,
 				260CDC20250491E80029E22A /* Sources */,
 				260CDC21250491E80029E22A /* Frameworks */,
 				260CDC22250491E80029E22A /* Resources */,
@@ -215,18 +166,16 @@
 			);
 			name = "AI Hacks 2Tests";
 			productName = "AI Hacks 2Tests";
-			productReference = 260CDC24250491E80029E22A /* AI Hacks 2Tests.xctest */;
+			productReference = 375B56A52505F776006208E3 /* AI Hacks 2Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		260CDC2E250491E80029E22A /* AI Hacks 2UITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 260CDC3E250491E80029E22A /* Build configuration list for PBXNativeTarget "AI Hacks 2UITests" */;
 			buildPhases = (
-				24B274B212B4B5E2B36487AB /* [CP] Check Pods Manifest.lock */,
 				260CDC2B250491E80029E22A /* Sources */,
 				260CDC2C250491E80029E22A /* Frameworks */,
 				260CDC2D250491E80029E22A /* Resources */,
-				6FDA62F7818DEC395E2DEC68 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,7 +184,7 @@
 			);
 			name = "AI Hacks 2UITests";
 			productName = "AI Hacks 2UITests";
-			productReference = 260CDC2F250491E80029E22A /* AI Hacks 2UITests.xctest */;
+			productReference = 375B56A62505F776006208E3 /* AI Hacks 2UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -270,7 +219,7 @@
 				Base,
 			);
 			mainGroup = 260CDC02250491E30029E22A;
-			productRefGroup = 260CDC0C250491E30029E22A /* Products */;
+			productRefGroup = 260CDC02250491E30029E22A;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -287,7 +236,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				260CDC1E250491E70029E22A /* LaunchScreen.storyboard in Resources */,
-				2815317E2505C168006B4B6D /* GoogleService-Info.plist in Resources */,
 				260CDC1B250491E70029E22A /* Assets.xcassets in Resources */,
 				260CDC16250491E30029E22A /* Main.storyboard in Resources */,
 			);
@@ -309,117 +257,15 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		24B274B212B4B5E2B36487AB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AI Hacks 2-AI Hacks 2UITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3E3D29A74DA1D565A553A13F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AI Hacks 2-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4BA3A8C5539E46E1C53B50F6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AI Hacks 2Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6FDA62F7818DEC395E2DEC68 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AI Hacks 2-AI Hacks 2UITests/Pods-AI Hacks 2-AI Hacks 2UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AI Hacks 2-AI Hacks 2UITests/Pods-AI Hacks 2-AI Hacks 2UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AI Hacks 2-AI Hacks 2UITests/Pods-AI Hacks 2-AI Hacks 2UITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CA04EAFA3BC90ED199845583 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AI Hacks 2/Pods-AI Hacks 2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AI Hacks 2/Pods-AI Hacks 2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AI Hacks 2/Pods-AI Hacks 2-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		260CDC07250491E30029E22A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				260CDC13250491E30029E22A /* ViewController.swift in Sources */,
-				2815317C2505BEDB006B4B6D /* NominationsViewController.swift in Sources */,
+				375B56A82505FCC7006208E3 /* ContentView.swift in Sources */,
 				260CDC0F250491E30029E22A /* AppDelegate.swift in Sources */,
+				375B56AB2506063C006208E3 /* welcomeViewController.swift in Sources */,
 				260CDC11250491E30029E22A /* SceneDelegate.swift in Sources */,
 				260CDC19250491E30029E22A /* AI_Hacks_2.xcdatamodeld in Sources */,
 			);
@@ -592,12 +438,11 @@
 		};
 		260CDC39250491E80029E22A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21F1AA16508C1CB99229F04B /* Pods-AI Hacks 2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "AI Hacks 2/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -611,12 +456,11 @@
 		};
 		260CDC3A250491E80029E22A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01ED996B949108CDE2FB1F21 /* Pods-AI Hacks 2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "AI Hacks 2/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -630,7 +474,6 @@
 		};
 		260CDC3C250491E80029E22A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76680AF0D79D9E7B587C294F /* Pods-AI Hacks 2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -652,7 +495,6 @@
 		};
 		260CDC3D250491E80029E22A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26A78DE28CC4D8407958E9C6 /* Pods-AI Hacks 2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -674,7 +516,6 @@
 		};
 		260CDC3F250491E80029E22A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42B1D8CB6681E009702FB546 /* Pods-AI Hacks 2-AI Hacks 2UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -694,7 +535,6 @@
 		};
 		260CDC40250491E80029E22A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C835ADE5A5123BFE9DC1D34 /* Pods-AI Hacks 2-AI Hacks 2UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
